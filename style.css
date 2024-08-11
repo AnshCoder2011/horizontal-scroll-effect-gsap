@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Madimi+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  background: #000;
+  overflow-x: hidden;
+  color: #fff;
+  font-family: "Gupter", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+h1 {
+  width: 100%;
+  color: #fff;
+  font-size: 48vw;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+
+.container {
+  width: 100%;
+  height: 1200vh;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  padding: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-404 {
+    position: absolute;
+    width: 400vw;
+    height: 100vw;
+    will-change: transform;
+}
+
+.card {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+#card-1 {
+    top: 11%;
+    left: 20%;
+}
+
+#card-2 {
+    top: 25%;
+    left: 40%;
+}
+
+#card-3 {
+    top: 35%;
+    left: 60%;
+}
+
+#card-4 {
+    top: 15%;
+    left: 80%;
+}
+
+.outro {
+    position: absolute;
+    top: 150vh;
+    width: 100%;
+    height: 100vh;
+}
+
+.outro h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: -2.85px;
+}
+
+.outro h1 a {
+    letter-spacing: 0px;
+    border: 2px solid #1e1e1e;
+    border-radius: 20px;
+    padding: 0.48vw 1vw;
+    transition: all ease 0.4s;
+}
+
+.outro h1 a:hover {
+    background: #1e1e1e;
+    color: #fff;
+    transition: all ease 0.4s;
+}
+
+@media (max-width: 900px) {
+    .wrapper-404 {
+        padding-top: 20em;
+    }
+}
